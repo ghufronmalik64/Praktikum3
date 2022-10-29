@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="USER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-29 12:55:09 PM"/>
+        <attribute name="created" value="VVNFUjtHSFVGUk9OOzIwMjItMTAtMjk7MTI6Mzc6NDQgUE07MjEzOQ=="/>
+        <attribute name="edited" value="VVNFUjtHSFVGUk9OOzIwMjItMTAtMjk7MTI6NTU6MDkgUE07MTsyMjQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <declare name="L, K" type="Real" array="False" size=""/>
+            <input variable="r"/>
+            <assign variable="L" expression="(22/7)*r*r"/>
+            <assign variable="K" expression="2*(22/7)*r"/>
+            <output expression="&quot;Luas(L)Lingakaran:&quot;&amp;L" newline="True"/>
+            <output expression="&quot;Kelilig(K)Lingkaran:&quot;&amp;K" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
