@@ -1,11 +1,16 @@
-print('{0:>3} {1:>6}'.format(0, 10**0))
-print('{0:>3} {1:>5}'.format(0, 10**1))
-print('{0:>4} {1:>4}'.format(0, 10**2))
-print('{0:>5} {1:>3}'.format(0, 10**3))
-print('{0:>3} {1:>2}'.format(0, 10**4))
-print('{0:>3} {1:>1}'.format(0, 10**5))
-print('{0:>3} {1:>2}'.format(0, 10**6))
-print('{0:>3} {1:>3}'.format(0, 10**7))
-print('{0:>3} {1:>4}'.format(0, 10**8))
-print('{0:>3} {1:>5}'.format(0, 10**9))
-print('{0:>3} {1:>6}'.format(0, 10**10))
+n = int (input ("Masukkan Nilai :"))
+print()
+
+for i in range(n):
+    for j in range(n,i,-1):
+         print(" ",end = "")
+    for j in range(2*i+1):
+         print("*",end = "")
+    print()
+    
+for i in range(n-2,-1,-1):
+    for j in range(n,i,-1):
+         print(" ",end = "")
+    for j in range(2*i+1):
+         print("*",end = "")
+    print()
