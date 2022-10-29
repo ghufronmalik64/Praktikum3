@@ -10,7 +10,7 @@ Kesempatan kali ini saya membuat *Program Menghitung Luas dan Keliling Lingkaran
 ## Rumus Luas dan Keliling Lingkaran
 
 ![img 1](../../Bahasa%20Pemrograman/Praktikum3/Menghitung%20Luas%20%26%20Keliling%20Lingkaran/image/lingkaran0.jpg)
-
+![img 2](../Praktikum3/Menghitung%20Luas%20%26%20Keliling%20Lingkaran/image/lingkaran1.png)
 Phi merupakan nilai konstanta di matematika sementara jari-jari merupakan jarak antara titik pusat dengan tepi lingkaran. Sebetulnya ada rumus lain untuk menghitung keliling lingkaran yaitu dengan menggunakan diameter, tapi pada kasus ini kita cukup menggunakan jari jari lingkaran saja.
 
 
